@@ -26,9 +26,7 @@ for(let i = 0; i < input.length; i++) {
         let length = Math.abs(y1 - y2)
         let direction = y1 < y2 ? 1 : -1
 
-
         let x = x1
-
 
         for(let j = 0; j < length; j++) {
 
@@ -52,7 +50,7 @@ for(let i = 0; i < input.length; i++) {
             map[y][x]++
             console.log(`map[${y}][${x}]: ${map[y][x]}, x: ${x}, y: ${y}`)
         }
-    } else console.log('not a line')
+    }
 }
 
 
